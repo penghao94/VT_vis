@@ -8,6 +8,7 @@
 if(NOT LIBIGL_FOUND)
 
 FIND_PATH(LIBIGL_INCLUDE_DIR igl/readOBJ.h
+   ${PROJECT_SOURCE_DIR}/external/libigl/include
    ${PROJECT_SOURCE_DIR}/../../include
    ${PROJECT_SOURCE_DIR}/../include
    ${PROJECT_SOURCE_DIR}/include
